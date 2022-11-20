@@ -10,7 +10,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "prod": "serve -s dist -p 3000"
+    "start:prod": "serve -s dist -p $PORT"
   },
   "dependencies": {
     "@hookform/resolvers": "^2.9.10",
