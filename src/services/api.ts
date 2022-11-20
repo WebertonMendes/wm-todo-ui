@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: `${process.env.BASE_URL_API}`,
+  baseURL: "https://wm-todo-api.herokuapp.com/api/v1",
 });
