@@ -1,6 +1,9 @@
 {
   "name": "todo-list-ui",
   "version": "0.0.1",
+  "engines": {
+    "node": "18.12.1"
+  },
   "description": "ToDo List UI",
   "author": "https://github.com/WebertonMendes",
   "private": true,
@@ -8,10 +11,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "heroku-postbuild": "npm run build",
+    "start": "npm i serve && serve -s build",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "start": "node server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
+    "serve": "vite preview"
   },
   "dependencies": {
     "@hookform/resolvers": "^2.9.10",
