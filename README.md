@@ -1,7 +1,7 @@
 # ToDo List App
 ![](https://live.staticflickr.com/65535/52497603832_321b9e9147_m.jpg)
 <br/>
-https://wm-todo-ui.herokuapp.com/
+
 ### Tecnologias utilizadas:
 **Frontend:** `Axios` `HTML` `CSS` `JavaScript` `React` `Styled Components` <br/>
 
