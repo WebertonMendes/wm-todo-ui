@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  todo_list_ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.ui
+    container_name: todo_list_ui
+    restart: unless-stopped
+    ports:
+      - 3000:3000
