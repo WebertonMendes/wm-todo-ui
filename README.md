@@ -22,5 +22,5 @@ docker-compose up -d
 ##
 ```
 
-**URLs disponíveis da aplicação em produção:**
+**URL da aplicação em produção:**<br/>
 URL Frontend: "https://wm-todo-ui.herokuapp.com/" <br/>
